@@ -1,0 +1,519 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuickBite - Fresh, hot food delivered in 30 minutes from top local restaurants.">
+    <title>QuickBite | Fast & Fresh Food Delivery</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Alert Notification Bar -->
+    <div class="top-announcement">
+        <div class="container announcement-content">
+            <span>ðŸŽ‰ Special Deal: Use code <strong>BITE50</strong> to get 50% OFF on your first 3 orders!</span>
+            <a href="#offers" class="announcement-link">Claim Now &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="brand-logo">
+                <span class="logo-emoji">ðŸ•</span>
+                <span class="logo-name">Quick<span>Bite</span></span>
+            </a>
+
+            <div class="location-picker">
+                <i class="fas fa-map-marker-alt location-icon"></i>
+                <div class="location-text">
+                    <span class="location-sub">Deliver to:</span>
+                    <strong class="location-city">Downtown Metro, Block 4</strong>
+                </div>
+                <i class="fas fa-chevron-down dropdown-arrow"></i>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#categories" class="nav-item">Categories</a></li>
+                <li><a href="#offers" class="nav-item">Special Offers</a></li>
+                <li><a href="#restaurants" class="nav-item">Top Restaurants</a></li>
+                <li><a href="#popular-dishes" class="nav-item">Popular Dishes</a></li>
+                <li><a href="#testimonials" class="nav-item">Reviews</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button class="cart-btn" aria-label="Cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-badge">3</span>
+                </button>
+                <a href="#popular-dishes" class="btn btn-primary order-cta">Order Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text-col">
+                    <span class="hero-pill"><i class="fas fa-bolt"></i> 30-Minute Guaranteed Express Delivery</span>
+                    <h1 class="hero-title">
+                        Craving Good Food? <br>
+                        Delivered <span class="accent-text">Hot & Fresh</span> to Your Doorstep.
+                    </h1>
+                    <p class="hero-subtitle">
+                        Explore thousands of curated cuisines, artisanal bakeries, gourmet burgers, and local neighborhood favorites ready to satisfy your tastebuds.
+                    </p>
+
+                    <div class="search-delivery-bar">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" placeholder="Search for dishes, restaurants, or cuisines..." aria-label="Search food">
+                        <button type="button" class="btn btn-primary search-btn">Find Food</button>
+                    </div>
+
+                    <div class="hero-metrics">
+                        <div class="metric-item">
+                            <h3>500+</h3>
+                            <p>Partner Restaurants</p>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <h3>30 Min</h3>
+                            <p>Average Delivery</p>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <h3>4.9 â˜…</h3>
+                            <p>Over 80k Reviews</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-col">
+                    <div class="dish-showcase">
+                        <div class="dish-circle">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" alt="Gourmet Burger">
+                        </div>
+                        <!-- Floating Badge 1 -->
+                        <div class="floating-badge badge-discount">
+                            <div class="badge-icon"><i class="fas fa-tag"></i></div>
+                            <div>
+                                <strong>50% OFF</strong>
+                                <span>On Supreme Burgers</span>
+                            </div>
+                        </div>
+                        <!-- Floating Badge 2 -->
+                        <div class="floating-badge badge-delivery">
+                            <div class="badge-icon"><i class="fas fa-motorcycle"></i></div>
+                            <div>
+                                <strong>Fast Dispatch</strong>
+                                <span>Courier Assigned</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Food Categories Section -->
+        <section id="categories" class="categories-section section-spacing">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="sub-label">Taste What You Love</span>
+                        <h2 class="main-heading">Explore Food Categories</h2>
+                    </div>
+                    <a href="#popular-dishes" class="view-all-link">View Full Menu <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="categories-grid">
+                    <div class="category-card active">
+                        <div class="category-icon">ðŸ”</div>
+                        <h4>Burgers</h4>
+                        <span>42 Places</span>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">ðŸ•</div>
+                        <h4>Artisan Pizza</h4>
+                        <span>38 Places</span>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">ðŸ£</div>
+                        <h4>Sushi & Asian</h4>
+                        <span>24 Places</span>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">ðŸ¥—</div>
+                        <h4>Healthy Bowls</h4>
+                        <span>19 Places</span>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">ðŸŒ®</div>
+                        <h4>Mexican Tacos</h4>
+                        <span>15 Places</span>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">ðŸ°</div>
+                        <h4>Desserts & Bakes</h4>
+                        <span>31 Places</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Promotional Offers Section -->
+        <section id="offers" class="offers-section section-spacing bg-light">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="sub-label">Daily Deals</span>
+                        <h2 class="main-heading">Exclusive Special Offers</h2>
+                    </div>
+                </div>
+
+                <div class="offers-grid">
+                    <div class="offer-banner banner-orange">
+                        <div class="banner-badge">Limited Time</div>
+                        <div class="banner-text">
+                            <h3>Super Combo Bonanza</h3>
+                            <p>Buy 1 Large Cheesy Crust Pizza and get a Choco Lava Cake Free!</p>
+                            <span class="promo-code">Use Code: <strong>COMBOFREE</strong></span>
+                        </div>
+                        <button class="btn btn-white">Claim Offer</button>
+                    </div>
+
+                    <div class="offer-banner banner-purple">
+                        <div class="banner-badge">Weekend Special</div>
+                        <div class="banner-text">
+                            <h3>Free Express Delivery</h3>
+                            <p>Zero delivery fee on all orders exceeding $25 from top-rated kitchens.</p>
+                            <span class="promo-code">Use Code: <strong>FREEDELIV</strong></span>
+                        </div>
+                        <button class="btn btn-white">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Rated Restaurants Section -->
+        <section id="restaurants" class="restaurants-section section-spacing">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="sub-label">Neighborhood Favorites</span>
+                        <h2 class="main-heading">Featured Partner Restaurants</h2>
+                    </div>
+                    <div class="filter-pills">
+                        <button class="pill active">All</button>
+                        <button class="pill">Fast Food</button>
+                        <button class="pill">Italian</button>
+                        <button class="pill">Japanese</button>
+                    </div>
+                </div>
+
+                <div class="restaurants-grid">
+                    <!-- Restaurant 1 -->
+                    <article class="restaurant-card">
+                        <div class="restaurant-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=80" alt="Bella Italia Bistro">
+                            <span class="badge-featured">Promoted</span>
+                            <span class="badge-time"><i class="far fa-clock"></i> 20-25 min</span>
+                        </div>
+                        <div class="restaurant-info">
+                            <div class="restaurant-title-row">
+                                <h3>Bella Italia Trattoria</h3>
+                                <span class="rating-badge"><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                            <p class="restaurant-tags">Italian â€¢ Wood-Fired Pizza â€¢ Pasta â€¢ Wine</p>
+                            <div class="restaurant-meta-row">
+                                <span class="price-range">$$ â€¢ Min Order $15</span>
+                                <span class="distance"><i class="fas fa-location-arrow"></i> 1.8 km</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Restaurant 2 -->
+                    <article class="restaurant-card">
+                        <div class="restaurant-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=700&q=80" alt="Smash & Co Burgers">
+                            <span class="badge-time"><i class="far fa-clock"></i> 15-20 min</span>
+                        </div>
+                        <div class="restaurant-info">
+                            <div class="restaurant-title-row">
+                                <h3>Smash & Co. Gourmet Burgers</h3>
+                                <span class="rating-badge"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                            <p class="restaurant-tags">American â€¢ Crispy Fries â€¢ Milkshakes</p>
+                            <div class="restaurant-meta-row">
+                                <span class="price-range">$ â€¢ Min Order $10</span>
+                                <span class="distance"><i class="fas fa-location-arrow"></i> 1.2 km</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Restaurant 3 -->
+                    <article class="restaurant-card">
+                        <div class="restaurant-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=700&q=80" alt="Sakura Sushi House">
+                            <span class="badge-time"><i class="far fa-clock"></i> 25-30 min</span>
+                        </div>
+                        <div class="restaurant-info">
+                            <div class="restaurant-title-row">
+                                <h3>Sakura Japanese Kitchen</h3>
+                                <span class="rating-badge"><i class="fas fa-star"></i> 4.7</span>
+                            </div>
+                            <p class="restaurant-tags">Japanese â€¢ Nigiri â€¢ Sashimi â€¢ Ramen</p>
+                            <div class="restaurant-meta-row">
+                                <span class="price-range">$$$ â€¢ Min Order $20</span>
+                                <span class="distance"><i class="fas fa-location-arrow"></i> 2.4 km</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Dishes with Price and Order Buttons -->
+        <section id="popular-dishes" class="dishes-section section-spacing bg-light">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="sub-label">Customer Favorites</span>
+                        <h2 class="main-heading">Trending Popular Dishes</h2>
+                    </div>
+                </div>
+
+                <div class="dishes-grid">
+                    <!-- Dish 1 -->
+                    <div class="dish-card">
+                        <div class="dish-image-box">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80" alt="Double Bacon Smash Burger">
+                            <span class="diet-badge non-veg"><i class="fas fa-circle"></i> Non-Veg</span>
+                        </div>
+                        <div class="dish-content">
+                            <div class="dish-header">
+                                <h4>Double Truffle Smash Burger</h4>
+                                <span class="dish-rating"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                            <p class="dish-desc">Double Angus beef patties, aged cheddar, caramelized onions, black truffle aioli on a toasted brioche.</p>
+                            <div class="dish-action-row">
+                                <div class="price-container">
+                                    <span class="current-price">$13.99</span>
+                                    <span class="old-price">$16.50</span>
+                                </div>
+                                <button class="btn-order" onclick="alert('Added Double Truffle Smash Burger to Cart!')">
+                                    <i class="fas fa-plus"></i> Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dish 2 -->
+                    <div class="dish-card">
+                        <div class="dish-image-box">
+                            <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=600&q=80" alt="Margherita Rustica Pizza">
+                            <span class="diet-badge veg"><i class="fas fa-circle"></i> Pure Veg</span>
+                        </div>
+                        <div class="dish-content">
+                            <div class="dish-header">
+                                <h4>Margherita Rustica Pizza</h4>
+                                <span class="dish-rating"><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                            <p class="dish-desc">San Marzano tomato base, fresh buffalo mozzarella, fragrant sweet basil, and extra virgin olive oil drizzle.</p>
+                            <div class="dish-action-row">
+                                <div class="price-container">
+                                    <span class="current-price">$14.50</span>
+                                    <span class="old-price">$18.00</span>
+                                </div>
+                                <button class="btn-order" onclick="alert('Added Margherita Rustica Pizza to Cart!')">
+                                    <i class="fas fa-plus"></i> Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dish 3 -->
+                    <div class="dish-card">
+                        <div class="dish-image-box">
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80" alt="Fresh Salmon Avocado Bowl">
+                            <span class="diet-badge healthy"><i class="fas fa-leaf"></i> Healthy</span>
+                        </div>
+                        <div class="dish-content">
+                            <div class="dish-header">
+                                <h4>Salmon Avocado Poke Bowl</h4>
+                                <span class="dish-rating"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                            <p class="dish-desc">Fresh sashimi-grade Atlantic salmon, Hass avocado, edamame, cucumber, and sesame ponzu dressing.</p>
+                            <div class="dish-action-row">
+                                <div class="price-container">
+                                    <span class="current-price">$15.75</span>
+                                    <span class="old-price">$19.00</span>
+                                </div>
+                                <button class="btn-order" onclick="alert('Added Salmon Avocado Poke Bowl to Cart!')">
+                                    <i class="fas fa-plus"></i> Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dish 4 -->
+                    <div class="dish-card">
+                        <div class="dish-image-box">
+                            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80" alt="Molten Belgian Lava Cake">
+                            <span class="diet-badge veg"><i class="fas fa-circle"></i> Sweet</span>
+                        </div>
+                        <div class="dish-content">
+                            <div class="dish-header">
+                                <h4>Molten Belgian Choco Cake</h4>
+                                <span class="dish-rating"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                            <p class="dish-desc">Warm Belgian chocolate molten center cake served with Madagascar vanilla bean ice cream scoop.</p>
+                            <div class="dish-action-row">
+                                <div class="price-container">
+                                    <span class="current-price">$7.99</span>
+                                    <span class="old-price">$9.50</span>
+                                </div>
+                                <button class="btn-order" onclick="alert('Added Molten Belgian Choco Cake to Cart!')">
+                                    <i class="fas fa-plus"></i> Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials / Customer Reviews -->
+        <section id="testimonials" class="testimonials-section section-spacing">
+            <div class="container">
+                <div class="section-heading-row text-center">
+                    <span class="sub-label">Loved by Foodies</span>
+                    <h2 class="main-heading">What Our Customers Say</h2>
+                </div>
+
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-stars">â˜…â˜…â˜…â˜…â˜…</div>
+                        <p class="review-text">"QuickBite has revolutionized my work lunches. The food always arrives steaming hot, and the live tracking is pin-point accurate!"</p>
+                        <div class="reviewer-meta">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Reviewer Sarah">
+                            <div>
+                                <h5>Sarah Jenkins</h5>
+                                <span>Software Designer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">â˜…â˜…â˜…â˜…â˜…</div>
+                        <p class="review-text">"The best discounts in town and unmatched packaging quality. The double smash burger from Smash & Co was an absolute 10/10."</p>
+                        <div class="reviewer-meta">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Reviewer David">
+                            <div>
+                                <h5>David Miller</h5>
+                                <span>Product Manager</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">â˜…â˜…â˜…â˜…â˜…</div>
+                        <p class="review-text">"Outstanding customer support and polite riders. Super fast 20-minute delivery even during peak Friday evening hours!"</p>
+                        <div class="reviewer-meta">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Reviewer Elena">
+                            <div>
+                                <h5>Elena Rostova</h5>
+                                <span>College Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Download CTA Banner -->
+        <section class="app-cta-section container">
+            <div class="app-cta-banner">
+                <div class="app-cta-content">
+                    <span class="pill-badge">Never Stay Hungry</span>
+                    <h2>Download QuickBite on Mobile</h2>
+                    <p>Get exclusive in-app vouchers, real-time rider GPS tracking, and one-tap reordering.</p>
+                    <div class="store-buttons">
+                        <a href="#" class="store-btn"><i class="fab fa-apple"></i> App Store</a>
+                        <a href="#" class="store-btn"><i class="fab fa-google-play"></i> Google Play</a>
+                    </div>
+                </div>
+                <div class="app-cta-graphic">
+                    <div class="order-floating-box">
+                        <i class="fas fa-check-circle success-icon"></i>
+                        <div>
+                            <strong>Order Delivered!</strong>
+                            <small>Enjoy your meal ðŸ˜‹</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <a href="#" class="brand-logo footer-logo">
+                    <span class="logo-emoji">ðŸ•</span>
+                    <span class="logo-name">Quick<span>Bite</span></span>
+                </a>
+                <p>Delivering delightful dining experiences straight from top-rated kitchens to your doorstep.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About QuickBite</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Partner with Us</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help & FAQs</a></li>
+                    <li><a href="#">Live Order Support</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fas fa-envelope"></i> support@quickbite.com</p>
+                <p><i class="fas fa-phone"></i> +1 (800) 456-BITE</p>
+                <p><i class="fas fa-map-marker-alt"></i> 100 Culinary Blvd, Suite 400</p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 QuickBite Technologies Inc. Developed by MOVVA HEMANTH (Roll No: 26000584). All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
